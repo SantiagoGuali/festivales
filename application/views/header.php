@@ -36,7 +36,7 @@
     <h2><Center>Festival Management</Center></h2>
     <ul class="nav flex-column">
         <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>/home/index"><i class="fa-solid fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a></li>
-        <li><a href="<?php echo site_url()?>/musical_group/index" class="nav-link"><i class="fa-solid fa-people-group"></i>&nbsp;&nbsp;&nbsp;Music Bands</a></li>
+        <li><a href="<?php echo site_url()?>/MusicalGroups/index" class="nav-link"><i class="fa-solid fa-people-group"></i>&nbsp;&nbsp;&nbsp;Music Bands</a></li>
         <li><a href="<?php echo site_url()?>/staff/index"  class="nav-link"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;Personnel</a></li>
         <li><a href="<?php echo site_url()?>/home/index"  class="nav-link"><i class="fa-solid fa-icons"></i>&nbsp;&nbsp;&nbsp;Activities</a></li>
 		<li><a href="<?php echo site_url()?>/home/index" class="nav-link"><i class="fa-solid fa-clipboard"></i>&nbsp;&nbsp;&nbsp;Inscriptions</a></li>
