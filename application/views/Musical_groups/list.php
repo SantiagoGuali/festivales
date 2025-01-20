@@ -28,10 +28,10 @@
                             <?php echo $group['representative_last_name'] . ' ' . $group['representative_first_name']; ?>
                         </td>
                         <td class="text-center">
-                            <a href="<?php echo site_url('musicalgroups/edit/' . $group['id_musical']); ?>" class="btn btn-warning btn-sm" title="Edit">
-                                <i class="fa fa-pencil-alt"></i>
+                            <a href="<?php echo site_url('musicalgroups/edit/' . $group['id_musical']); ?>" class="btn btn-outline-success btn-sm" title="Edit">
+                                <i class="fa-solid fa-pen-to-square"></i>
                             </a>
-                            <a href="<?php echo site_url('musicalgroups/delete/' . $group['id_musical']); ?>" onclick="return confirm('Are you sure you want to delete this group?');" class="btn btn-danger btn-sm" title="Delete">
+                            <a href="<?php echo site_url('musicalgroups/delete/' . $group['id_musical']); ?>" onclick="return confirm('Are you sure you want to delete this group?');" class="btn btn-outline-danger btn-sm" title="Delete">
                                 <i class="fa fa-trash"></i>
                             </a>
                         </td>

@@ -38,11 +38,11 @@
                             <td><?= htmlspecialchars($member->role) ?></td>
                             <td><?= $member->state ? 'Active' : 'Inactive' ?></td>
                             <td class="text-center">
-                                <a href="<?php echo site_url('Staff/edit/' . $member->id_staff) ?>" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href="<?php echo site_url('Staff/edit/' . $member->id_staff) ?>" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
 								<a href="<?php echo site_url('Staff/delStaff/' . $member->id_staff); ?>" 
-								class="btn btn-outline-danger" 
+								class="btn btn-outline-danger btn-sm" 
 								onclick="return confirm('¿Está seguro de que desea eliminar este registro?');">
-								<i class="fa-solid fa-trash"></i>
+								<i class="fa-solid fa-trash btn-sm"></i>
 								</a>
 
                             </td>
