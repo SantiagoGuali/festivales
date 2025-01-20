@@ -38,9 +38,9 @@
         <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>/home/index"><i class="fa-solid fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a></li>
         <li><a href="<?php echo site_url()?>/MusicalGroups/index" class="nav-link"><i class="fa-solid fa-people-group"></i>&nbsp;&nbsp;&nbsp;Music Bands</a></li>
         <li><a href="<?php echo site_url()?>/staff/index"  class="nav-link"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;Personnel</a></li>
-        <li><a href="<?php echo site_url()?>/home/index"  class="nav-link"><i class="fa-solid fa-icons"></i>&nbsp;&nbsp;&nbsp;Activities</a></li>
-		<li><a href="<?php echo site_url()?>/home/index" class="nav-link"><i class="fa-solid fa-clipboard"></i>&nbsp;&nbsp;&nbsp;Inscriptions</a></li>
-        <li><a href="<?php echo site_url()?>/home/index" class="nav-link"><i class="fa-solid fa-champagne-glasses"></i>&nbsp;&nbsp;&nbsp;Festivals</a></li>
+        <li><a href="<?php echo site_url()?>/Events_festival/index"  class="nav-link"><i class="fa-solid fa-icons"></i>&nbsp;&nbsp;&nbsp;Events</a></li>
+		<li><a href="<?php echo site_url()?>/Inscriptions/index" class="nav-link"><i class="fa-solid fa-clipboard"></i>&nbsp;&nbsp;&nbsp;Inscriptions</a></li>
+        <li><a href="<?php echo site_url()?>/Festivals/index" class="nav-link"><i class="fa-solid fa-champagne-glasses"></i>&nbsp;&nbsp;&nbsp;Festivals</a></li>
     </ul>
 </div>
 
