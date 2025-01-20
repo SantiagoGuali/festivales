@@ -12,5 +12,7 @@
 			$this->load-> view("Musical_groups/musical_groups.php");
 			$this->load-> view("footer.php");
 		}
+
+		
 	}
 ?>
