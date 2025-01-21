@@ -20,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label for="representative"><b>Representative:</b></label>
-                <select name="representative" class="form-control" id="representative" required>
+                <select name="representative" class="form-control selectpicker" id="representative" required  data-live-search="true">
                     <option value="">--SELECT--</option>
                     <?php foreach ($staff as $rep): ?>
                         <option value="<?php echo $rep['id_staff']; ?>" 
