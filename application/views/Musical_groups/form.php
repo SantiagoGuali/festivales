@@ -40,6 +40,10 @@
 <!-- Validaciones del lado del cliente -->
 <script>
     $(document).ready(function () {
+    $('.selectpicker').selectpicker();
+});
+
+    $(document).ready(function () {
         $("#musicalGroupForm").validate({
             rules: {
                 name: {
